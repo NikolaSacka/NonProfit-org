@@ -5,3 +5,4 @@ make following:
 3.custom cms for managing news articles, photos, comments..
 4.story(news)
 5.content fill(gallery, news, comments...)
+6.Change title for each page (ex. 'title' , 'glavna')

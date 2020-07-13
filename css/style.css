@@ -1,4 +1,4 @@
-@charset 'UTF-8';
+@charset "UTF-8";
 @font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.0.1');src:url('font/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('font/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
 
 /*
@@ -111,7 +111,7 @@ a:hover
 	ul.style1 li
 	{
 		padding: 0.75em 0 0.75em 0em;
-		background: url(images/bullet-icon.png) no-repeat left 50%;
+		/*background: url(images/bullet-icon.png) no-repeat left 50%;*/
 	}
 	
 	ul.style1 a
@@ -940,9 +940,68 @@ a:hover
 		text-decoration: none;
 	}
 
+	.publish
+	{
+		position: relative;
+		display: inline-block;
+		/* background: #2B8FC4; */
+		background: #101214;
+		padding: 0.8em 2em;
+		border-radius: 4px;
+		text-decoration: none;
+		font-size: 1.2em;
+		font-weight: 300;
+		color: #FFF !important;
+		-moz-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+		-webkit-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+		-o-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+		-ms-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+		transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+		text-align: center;
 
+	}
 
+	.publish:hover
+	{
+		background: #686868;
+		color: #FFF !important;
+	}
 
+	.publish-alt
+	{
+		padding: 0.9em 2em;
+		font-size: 1.5em;
+	}
+	.input-row{
+		padding: 20px 0;
+	}
+	.input-field{
+		width: 100%;
+		margin: auto;
+		height: 40px;
+		text-align: center;
+		padding: 11px;
+	}
 
-
+	#frm-comment{
+		width: 100%;
+		margin: auto;
+		height: 100%;
+		text-align: center;
+		border: 1px solid;
+		padding: 10px;
+		background-color: #edf1f0f5;
+		box-shadow: 0px 3px 10px 5px rgba(199, 201, 201, 0.98);
+	}
+	#comment-message{
+		color: #212124;
+		font-size: medium;
+	}
+	header h4{
+		font-size: 3em;
+		text-align: left;
+	}
+	label h2{
+		font-size: 2em;
+	}
 
