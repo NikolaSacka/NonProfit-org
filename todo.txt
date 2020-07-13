@@ -2,6 +2,6 @@ make following:
 
 1.post-comment.php and show comment section
 2.gallery.php
-3.custom cms
+3.custom cms for managing news articles, photos, comments..
 4.story(news)
 5.content fill(gallery, news, comments...)
